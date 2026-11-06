@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Submit Feedback</title>  
+    </head>
+    <body>
+        <header>
+            <h1>Submit Feedback</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="feedback.html">Feedback</a>
+                </li>
+                <li>
+                    <a href="grades.html">Grades</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <main>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="feedback-type">Feedback Type:</label>
+            <select id="feedback-type" name="feedback-type">
+                <option value="course">Course</option>
+                <option value="website">Website</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+            <h2>Rating</h2>
+            <label for="rating1">
+            <input type="radio" id="rating1" name="rating" value="1"> 1
+            </label>
+            <label for="rating2">
+            <input type="radio" id="rating2" name="rating" value="2"> 2
+            </label>
+            <label for="rating3">
+            <input type="radio" id="rating3" name="rating" value="3"> 3
+            </label>
+            <label for="rating4">
+            <input type="radio" id="rating4" name="rating" value="4"> 4
+            </label>
+            <label for="rating5">
+            <input type="radio" id="rating5" name="rating" value="5"> 5
+            </label>
+            <br>
+            <label for="reccomend">
+            <input type="checkbox" id="reccomend" name="recommend" value="yes"> I would recommend this portal
+            </label>
+            <br>
+            <h2>Comments</h2>
+            <br>
+            <label for="comments">Comments:</label>
+            <br>
+            <textarea id="comments" name="comments" rows="5" cols="8"></textarea>
+            <br>
+            <button type="submit">Submit Feedback</button>
+
+        </form>
+        </main>
+        <footer>
+            <p>Thank you for your feedback.</p>
+        </footer>
+    </body>
+</html>
